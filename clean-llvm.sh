@@ -25,7 +25,7 @@ rm -f $INSTALL_DIR/lib/clang/*/lib/linux/libclang_rt*
 rm -fr $INSTALL_DIR/include
 find $INSTALL_DIR/bin -not -name "clang*" -exec rm -f {} \;
 rm $INSTALL_DIR/bin/clang-check $INSTALL_DIR/bin/clang-format
-#Dafuq?
+#Dafuq is this?
 #cd ../..
 rm -rf llvm-build
 #For fuck's sake don't delete this!
